@@ -5,4 +5,4 @@
 <br />
 ***2) Doubly LinkedList***
 
-## 2) Stack
+## 2) Stacks
