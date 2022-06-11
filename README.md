@@ -1,8 +1,12 @@
 # DSA Code Learning
 
-## 1) LinkedList
+## Data Stuctures
+### 1) LinkedList
 ***1) Singly LinkedList***
 <br />
 ***2) Doubly LinkedList***
 
-## 2) Stacks
+### 2) Stacks ad Queues
+
+
+## Algorithms
