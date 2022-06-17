@@ -76,3 +76,27 @@ class LinkedList:
             length += 1
             temp = temp.next
         return length
+
+    def reverse(self):
+        prev = None
+        after = None
+        current = self.get_head()
+        while current:
+            after = current.next
+            current.next = prev
+            prev = current
+            current = after
+
+            self.head_node = prev
+        return
+
+    def detect_loop(self):
+        one = self.get_head()
+        two = self.get_head()
+
+        while one and two and two.next:
+            one = one.next
+            two = two.next.next
+            if one == two:
+                return True
+        return False
