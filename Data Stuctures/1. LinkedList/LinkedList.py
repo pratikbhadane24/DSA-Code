@@ -42,3 +42,37 @@ class LinkedList:
             temp = temp.next
 
         return False
+
+    def delete(self, value):
+        temp = self.get_head()
+        prev_node = None
+        deleted = False
+
+        if self.is_empty():
+            return deleted
+
+        if temp.data == value:
+            self.delete_at_head()
+            deleted = True
+            return deleted
+
+        while temp.next:
+            if temp.data == value:
+                prev_node.next = temp.next
+                temp.next = None
+                deleted = True
+                return deleted
+            prev_node = temp
+            temp = temp.next
+        return deleted
+
+    def length(self):
+        length = 0
+        temp = self.get_head()
+        if self.is_empty():
+            return length
+
+        while temp:
+            length += 1
+            temp = temp.next
+        return length
