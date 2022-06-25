@@ -12,4 +12,6 @@
 
 ### 3) Binary Search Tree
 
+### 4) Hash Tables
+
 ## Algorithms
