@@ -1,12 +1,15 @@
 # DSA Code Learning
 
 ## Data Stuctures
+
 ### 1) LinkedList
-***1) Singly LinkedList***
+
+**_1) Singly LinkedList_**
 <br />
-***2) Doubly LinkedList***
+**_2) Doubly LinkedList_**
 
 ### 2) Stacks ad Queues
 
+### 3) Binary Search Tree
 
 ## Algorithms
