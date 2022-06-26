@@ -1,27 +1,30 @@
-class MyStack:
-    def __init__(self):
-        self.stack_list = []
-        self.stack_size = 0
+class Stack:
+    def __init__(self, value):
+        new_node = Node(value)
+        self.top = new_node
+        self.height = 1
 
-    def is_empty(self):
-        return self.stack_size == 0
+    def print_stack(self):
+        temp = self.top
+        while temp:
+            print(temp.value)
+            temp = temp.next
 
-    def peek(self):
-        return self.stack_list[-1]
-
-    def size(self):
-        if self.is_empty():
-            return "Stack is Empty"
-        return self.stack_size
-    
-    def push(self, element):
-        self.stack_size += 1
-        self.stack_list.append(element)
-        return
+    def push(self, value):
+        new_node = Node(value)
+        if self.height == 0:
+            self.top = new_node
+        else:
+            new_node.next = self.top
+            self.top = new_node
+        self.height += 1
 
     def pop(self):
-        if self.is_empty():
+        if self.height == 0:
+            print("Stack is empty")
             return None
-        self.stack_size -= 1
-        return self.stack_list.pop()
-        
+        temp = self.top
+        self.top = temp.next
+        temp.next = None
+        self.height -= 1
+        return temp.value
