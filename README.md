@@ -2,7 +2,7 @@
 
 ## Data Stuctures
 
-### 1) LinkedList
+### 1) LinkedList:
 
 **_1) Singly LinkedList_**
 <br />
@@ -12,8 +12,8 @@
 
 ### 3) Binary Search Tree
 
-### 4) Hash Tables
+### 4) [Hash Tables](./4.%20Hash%20Tables)
 
-### 5) Graphs
+### 5) [Graphs](./5.%20Graphs)
 
 ## Algorithms
