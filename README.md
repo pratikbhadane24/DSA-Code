@@ -14,4 +14,6 @@
 
 ### 4) Hash Tables
 
+### 5) Graphs
+
 ## Algorithms
