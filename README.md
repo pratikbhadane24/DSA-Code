@@ -2,18 +2,18 @@
 
 ## Data Stuctures
 
-### 1) LinkedList:
+### [1) LinkedList](./Data%20Stuctures/1.%20LinkedList):
 
 **_1) Singly LinkedList_**
 <br />
 **_2) Doubly LinkedList_**
 
-### 2) Stacks ad Queues
+### [2) Stacks ad Queues](./Data%20Stuctures/2.%20Stacks%20%26%20Queues)
 
-### 3) Binary Search Tree
+### [3) Binary Search Tree](./Data%20Stuctures/3.%20BST)
 
-### 4) [Hash Tables](./4.%20Hash%20Tables)
+### [4) Hash Tables](./Data%20Stuctures/4.%20Hash%20Tables)
 
-### 5) [Graphs](./5.%20Graphs)
+### [5) Graphs](./Data%20Stuctures/5.%20Graphs)
 
 ## Algorithms
