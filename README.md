@@ -18,7 +18,7 @@
 
 ## Algorithms
 
-### [1) Basic Sorting Algorithms](./Algorithms/Basic%20Sorts)
+### [1) Basic Sorting Algorithms](./Algorithms/1.%20Basic%20Sorts)
 
 **_1) Bubble Sort_**
 <br />
@@ -26,4 +26,4 @@
 <br />
 **_2) Selection Sort_**
 
-### [2) Merge Sort](./Algorithms/Merge%20Sort)
+### [2) Merge Sort](./Algorithms/2.%20Merge%20Sort)
