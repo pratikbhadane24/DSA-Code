@@ -13,6 +13,6 @@ def selection_sort(my_list):
     return my_list
 
 
-arr = [19, 22, 3, 54, 5, 66, 17]
-sorted = selection_sort(arr)
-print(sorted)  # [3, 5, 17, 19, 22, 54, 66]
+# arr = [19, 22, 3, 54, 5, 66, 17]
+# sorted = selection_sort(arr)
+# print(sorted)  # [3, 5, 17, 19, 22, 54, 66]
