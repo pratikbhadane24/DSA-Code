@@ -17,3 +17,13 @@
 ### [5) Graphs](./Data%20Stuctures/5.%20Graphs)
 
 ## Algorithms
+
+### [1) Basic Sorting Algorithms](./Algorithms/Basic%20Sorts)
+
+**_1) Bubble Sort_**
+<br />
+**_2) Insertion Sort_**
+<br />
+**_2) Selection Sort_**
+
+### [2) Merge Sort](./Algorithms/Merge%20Sort)

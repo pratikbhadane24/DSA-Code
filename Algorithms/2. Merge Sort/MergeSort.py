@@ -43,6 +43,6 @@ def merge_sort(my_list):
     return merge(merge_sort(left), merge_sort(right))
 
 
-list1 = [3, 54, 7, 9, 10, 111, 2, 5, 6, 8, 13, 12,  14, 15, 16]
-newlist = merge_sort(list1)
-print(newlist)
+# list1 = [3, 54, 7, 9, 10, 111, 2, 5, 6, 8, 13, 12,  14, 15, 16]
+# newlist = merge_sort(list1)
+# print(newlist)
