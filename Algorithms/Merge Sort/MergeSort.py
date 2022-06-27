@@ -1,3 +1,6 @@
+from turtle import right
+
+
 def merge(list1, list2):
     """Takes two sorted list and combines them into one sorted list.
     Args:
@@ -23,7 +26,23 @@ def merge(list1, list2):
     return combined
 
 
-# list1 = [1, 2, 5, 6, 8, 13]
-# list2 = [3, 4, 7, 9, 10, 11, 12,  14, 15, 16]
-# newlist = merge(list1, list2)
-# print(newlist)
+def merge_sort(my_list):
+    """Merge Sort
+
+    Args:
+        my_list (int): Sorts the given list via Merge Sort Algorithm
+
+    Returns:
+        list: Sorted List
+    """
+    if len(my_list) == 1:
+        return my_list
+    mid = len(my_list)//2
+    left = my_list[:mid]
+    right = my_list[mid:]
+    return merge(merge_sort(left), merge_sort(right))
+
+
+list1 = [3, 54, 7, 9, 10, 111, 2, 5, 6, 8, 13, 12,  14, 15, 16]
+newlist = merge_sort(list1)
+print(newlist)
