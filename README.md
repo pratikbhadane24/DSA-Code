@@ -24,6 +24,6 @@
 <br />
 **_2) Insertion Sort_**
 <br />
-**_2) Selection Sort_**
+**_3) Selection Sort_**
 
 ### [2) Merge Sort](./Algorithms/2.%20Merge%20Sort)
