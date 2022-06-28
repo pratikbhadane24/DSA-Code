@@ -27,3 +27,5 @@
 **_3) Selection Sort_**
 
 ### [2) Merge Sort](./Algorithms/2.%20Merge%20Sort)
+
+### [3) Quick Sort](./Algorithms/3.%20Quick%20Sort)
