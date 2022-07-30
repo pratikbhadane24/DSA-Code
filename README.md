@@ -29,3 +29,10 @@
 ### [2) Merge Sort](./Algorithms/2.%20Merge%20Sort)
 
 ### [3) Quick Sort](./Algorithms/3.%20Quick%20Sort)
+
+### [4) Tree Transversals](./Algorithms/4.%20Tree%20Transversals)
+
+**_1) Breadth First Search - BFS_**
+<br />
+**_2) Depth First Search - DFS_**
+<br />
