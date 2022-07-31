@@ -76,5 +76,6 @@ mytree.insert(27)
 mytree.insert(52)
 mytree.insert(82)
 
-
+print(mytree.DFS_preOrder())
 print(mytree.DFS_postOrder())
+print(mytree.DFS_inOrder())
