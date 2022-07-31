@@ -53,8 +53,18 @@ class BST:
         traverse(self.root)
         return results
 
+    # In-Order Depth-First Search
     def DFS_inOrder(self):
-        pass
+        results = []
+
+        def traverse(current):
+            if current.left is not None:
+                traverse(current.left)
+            results.append(current.value)
+            if current.right is not None:
+                traverse(current.right)
+        traverse(self.root)
+        return results
 
 
 mytree = BST()
