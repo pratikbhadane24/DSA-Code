@@ -27,5 +27,44 @@ class BST:
                 temp = temp.right
 
     # Pre-Order Depth-First Search
-    def preOrderDFS(self):
+    def DFS_preOrder(self):
+        results = []
+
+        def traverse(current):
+            results.append(current.value)
+            if current.left is not None:
+                traverse(current.left)
+            if current.right is not None:
+                traverse(current.right)
+        traverse(self.root)
+        return results
+
+    # Post-Order Depth-First Search
+    def DFS_postOrder(self):
+        results = []
+
+        def traverse(current):
+            if current.left is not None:
+                traverse(current.left)
+            if current.right is not None:
+                traverse(current.right)
+            results.append(current.value)
+
+        traverse(self.root)
+        return results
+
+    def DFS_inOrder(self):
         pass
+
+
+mytree = BST()
+mytree.insert(47)
+mytree.insert(21)
+mytree.insert(76)
+mytree.insert(18)
+mytree.insert(27)
+mytree.insert(52)
+mytree.insert(82)
+
+
+print(mytree.DFS_postOrder())
