@@ -8,7 +8,7 @@
 <br />
 **_2) Doubly LinkedList_**
 
-### [2) Stacks ad Queues](./Data%20Stuctures/2.%20Stacks%20%26%20Queues)
+### [2) Stacks ad Queues](./Data%20Stuctures/2.%20Stacks%20%26%20Queues) - With List and LinkedList Both
 
 ### [3) Binary Search Tree](./Data%20Stuctures/3.%20BST)
 
