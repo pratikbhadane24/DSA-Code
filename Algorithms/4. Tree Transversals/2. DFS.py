@@ -26,30 +26,6 @@ class BST:
                     return True
                 temp = temp.right
 
-    # Breadth-First Search
-    def BFS(self):
-        current = self.root
-        queue = []
-        results = []
-        queue.append(current)
-        while len(queue) > 0:
-            current = queue.pop(0)
-            results.append(current.value)
-            if current.left is not None:
-                queue.append(current.left)
-            if current.right is not None:
-                queue.append(current.right)
-        return results
-
-
-# mytree = BST()
-# mytree.insert(47)
-# mytree.insert(21)
-# mytree.insert(76)
-# mytree.insert(18)
-# mytree.insert(27)
-# mytree.insert(52)
-# mytree.insert(82)
-
-
-# print(mytree.BFS())
+    # Pre-Order Depth-First Search
+    def preOrderDFS(self):
+        
